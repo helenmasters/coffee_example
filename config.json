@@ -1,0 +1,19 @@
+{
+  "VCAP_SERVICES": {
+    "cloudantNoSQLDB": [
+      {
+        "name": "myCoffeeStoreCloudantService",
+        "label": "cloudantNoSQLDB",
+        "tags": [],
+        "plan": "Lite",
+        "credentials": {
+          "host": "localhost",
+          "url": "",
+          "username": "",
+          "password": "",
+          "port": 5984
+        }
+      }
+    ]
+  }
+}

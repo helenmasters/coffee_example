@@ -1,0 +1,19 @@
+{
+  "appType": "web",
+  "appDir": "coffeestore",
+  "appName": "coffeestore",
+  "config": {
+    "logger": "helium",
+    "port": 8090
+  },
+  "bluemix": true,
+  "services": {
+    "cloudant": [
+      {
+        "name": "myCoffeeStoreCloudantService",
+        "secured": false,
+        "port": 5984
+      }
+    ]
+  }
+}
